@@ -15,12 +15,11 @@ image(l1,x,y);
 void break() {}
 class Brick {
 
-  float x, y;       // Position
-  float w, h;       // Dimensions
-  color c;          // Brick color
-  int health;       // How many hits it can take
-  boolean destroyed; // True if brick is broken
-
+  float x, y;      
+  float w, h;       
+  color c;           
+  int health;        
+  boolean destroyed;  
   // Constructor
   Brick(float x, float y, float w, float h, color c, int health) {
     this.x = x;
