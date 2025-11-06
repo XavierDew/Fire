@@ -14,6 +14,8 @@
 | `Paddle` | `move()` |
 | `Ball` | `bounce()`|
 | `Bricks` | `break()` |
+| `Powerups` | `powerup()` |
+| `Score` | `points()` |
 
 ## Group
 - Xavier (@XavierDew)
