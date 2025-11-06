@@ -11,9 +11,9 @@
 | Class | Role |
 |-------|------|
 | `Main` | `setup()`, `draw()` |
-| `Paddle` | ... |
-| `Ball` | ... |
-| `Bricks` | ... |
+| `Paddle` | `move()` |
+| `Ball` | `bounce()`|
+| `Bricks` | `break()` |
 
 ## Group
 - Xavier (@XavierDew)
