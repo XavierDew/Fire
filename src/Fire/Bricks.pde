@@ -42,28 +42,7 @@ class Brick {
  
   boolean checkCollision(Ball ball) {
     if (destroyed) return false;
-
-    // Axis-Aligned Bounding Box (AABB) collision
-    boolean hit = ball.x + ball.r > x &&
-                  ball.x - ball.r < x + w &&
-                  ball.y + ball.r > y &&
-                  ball.y - ball.r < y + h;
-
-    if (hit) {
-      hit(); // reduce brick health
-      ball.dy *= -1; // bounce vertically
-      return true;
-    }
-
-    return false;
-  }
-  // Called when the brick is hit
- 
-  void hit() {
-    health--;
-    if (health <= 0) {
-      destroyed = true;
-    }  
+  
     }
   }
 }
