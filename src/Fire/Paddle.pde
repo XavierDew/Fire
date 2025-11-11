@@ -9,7 +9,7 @@ class Paddle {
     this.speed = speed;
   }
 
-  void draw() {
+  void display() {
     fill(255, 204, 0);
     rect(x, y, w, h, 4);
   }
