@@ -18,6 +18,6 @@
 | `Score` | `points()` |
 
 ## Group
-- Xavier (@XavierDew)
-- Jacob (@9730453)
-- Miles (@scooba16)
+- Xavier (@XavierDew) Leader
+- Jacob (@9730453) Graphics Designer 
+- Miles (@scooba16) Coder
