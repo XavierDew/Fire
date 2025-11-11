@@ -1,4 +1,4 @@
-class Brick {
+  class Brick {
 // member variables
 int x,y,w,h;
 
@@ -36,13 +36,8 @@ class Brick {
       stroke(255);
       fill(c);
       rect(x, y, w, h);
-  }
-
-  // Check collision with ball
  
-  boolean checkCollision(Ball ball) {
-    if (destroyed) return false;
-  
     }
   }
 }
+
