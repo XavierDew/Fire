@@ -1,7 +1,6 @@
 class Brick {
 // member variables
-int x,y,w,h speed;
-PImage l1;
+int x,y,w,h;
 
 // Constructor
 Brick() {}
