@@ -33,12 +33,10 @@ class Brick {
  
   // Display
  
-  void display() {
-    if (!destroyed) {
+  void draw() {
       stroke(255);
       fill(c);
       rect(x, y, w, h);
-    }
   }
 
   // Check collision with ball
