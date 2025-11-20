@@ -1,3 +1,5 @@
+// Jacob Ruesch
+
 class Paddle {
   float x, y, w, h, speed;
 
