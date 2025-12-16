@@ -1,7 +1,9 @@
-// Jacob Ruesch
+// Author: Jacob Ruesch
 
 class Paddle {
-  float x, y, w, h, speed;
+  float x, y;        
+  float w, h;        
+  float speed;      
 
   Paddle(float x, float y, float w, float h, float speed) {
     this.x = x;
@@ -11,18 +13,25 @@ class Paddle {
     this.speed = speed;
   }
 
+  
   void display() {
     fill(255, 204, 0);
     rect(x, y, w, h, 4);
   }
 
+ 
   void moveLeft() {
     x -= speed;
-    if (x < 0) x = 0;
+    if (x < 0) {
+      x = 0;
+    }
   }
 
+ 
   void moveRight() {
     x += speed;
-    if (x + w > width) x = width - w;
+    if (x + w > width) {
+      x = width - w;
+    }
   }
 }
